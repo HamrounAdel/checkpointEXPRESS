@@ -15,8 +15,6 @@ app.get('/service',datefunc,(req,res)=>{
     res.sendFile(__dirname+'/public/service.html')
 })
 
-
-
 app.listen(port,err=>{
     err?console.log(err):console.log("the running")})
 
